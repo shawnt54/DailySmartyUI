@@ -10,7 +10,7 @@ export default function(state = INIT_STATE, action) {
     case SET_RECENT_POSTS:
       
     const recentPosts = action.payload;  
-    return [...state, recentPosts, action.payload];
+    return {...state, recentPosts};
   
     default:
       return state;
