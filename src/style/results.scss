@@ -31,6 +31,7 @@
     font-size: 14px;
     line-height: 17px;
     font-weight: normal;
+    align-items: right;
   }
 
   .result-post__title a {
@@ -41,12 +42,15 @@
 
   .result-post__links {
     display: flex;
+    // height: 70px;
   }
 }
 
 .post-link {
   min-height: 70px;
   display: flex;
+  flex-basis: 205px;
+  margin-right: 37px;
 
   .post-link__box {
     min-width: 70px;
